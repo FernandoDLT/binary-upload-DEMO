@@ -2,19 +2,35 @@
    color: dodgerblue;
 }
 
+.text-center {
+   margin-top: 55px;
+
+}
+
+a {
+   font-size: 2.5rem;
+   text-decoration: none;
+}
+
 h2 {
    color: rgb(100, 98, 98);
    text-align: center;
 }
 
-.btn-primary {
-   margin: 100px auto;
-   /* margin: 40px; */
-   margin-right: 600px;
+button.btn.btn-primary:hover {
+   background-color: dodgerblue;   
 }
 
-.btn-primary:hover {
-   background-color: gray;
-   margin-right: 600px;
-   border: none;
+a.btn.btn-primary {
+   width: 240px;    
+}
+
+a.btn.btn-primary:hover {
+   background-color: dodgerblue;  
+}
+
+ul li {
+   color: grey;
+   font-size: 28px;
+   margin-left: 32px;
 }
