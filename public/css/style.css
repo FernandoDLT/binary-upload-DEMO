@@ -43,6 +43,5 @@ li::marker {
 
 ul li {
    color: rgb(58, 148, 58);
-   font-size: 2rem;
-   margin-left: 32px;
+   font-size: 1.2rem;
 }
