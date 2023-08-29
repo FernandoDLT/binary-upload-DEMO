@@ -25,6 +25,23 @@ a {
    text-decoration: none;
 }
 
+.user-info {
+   margin-top: 100px;
+}
+
+
+.user-info a {
+   color: dodgerblue;
+   background-color: white;
+   align-items: center;
+}
+
+.user-info .btn-primary {
+   display: block;
+   margin: 70px auto 0px;
+   /* Center horizontally */
+}
+
 button.btn.btn-primary:hover {
    background-color: dodgerblue;   
 }
