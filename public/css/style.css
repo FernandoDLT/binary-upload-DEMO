@@ -12,12 +12,24 @@ strong {
 }
 
 h2 {
-   color: rgb(100, 98, 98);
+   color: dodgerblue;
    text-align: center;
 }
 
 label.form-label {
    color: gray;
+}
+
+input, textarea {
+   box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-primary {
+   display: block;
+   margin: 40px auto 0;
+   width: 140px;
+   box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 a {
@@ -39,7 +51,7 @@ a {
 .user-info .btn-primary {
    display: block;
    margin: 70px auto 0px;
-   /* Center horizontally */
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 button.btn.btn-primary:hover {
