@@ -4,17 +4,25 @@
 
 .text-center {
    margin-top: 55px;
-
+   
 }
 
-a {
-   font-size: 2.5rem;
-   text-decoration: none;
+strong {
+   color: gray;
 }
 
 h2 {
    color: rgb(100, 98, 98);
    text-align: center;
+}
+
+label.form-label {
+   color: gray;
+}
+
+a {
+   font-size: 2.5rem;
+   text-decoration: none;
 }
 
 button.btn.btn-primary:hover {
@@ -29,8 +37,12 @@ a.btn.btn-primary:hover {
    background-color: dodgerblue;  
 }
 
+li::marker {
+   color: rgb(21, 233, 21);
+}
+
 ul li {
-   color: grey;
-   font-size: 28px;
+   color: rgb(58, 148, 58);
+   font-size: 2rem;
    margin-left: 32px;
 }
